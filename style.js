@@ -22,13 +22,13 @@ export default {
     gif: {
         flex: 1,
         resizeMode: 'contain',
-        borderRadius: 0 // Doesn't work
+        borderRadius: 0 // Does work
     },
     title: {
         fontSize: 30,
         textAlign: 'center',
         letterSpacing: 2,
-        marginTop: 10
+        marginTop: 30
     },
     temp: {
         fontSize: 30,
@@ -55,8 +55,7 @@ export default {
         textAlign: 'center',
         marginLeft: 50,
         marginRight: 50,
-        marginTop: 20,
-        marginBottom: 10
+        marginBottom: 30
     },
     tabBarLabel: {
         marginBottom: 10
