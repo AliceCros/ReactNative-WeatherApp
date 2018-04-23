@@ -28,7 +28,6 @@ export default class CurrentWeather extends React.Component {
 
 	componentWillMount() {
         this.fetchWeather()
-        this.generateFun();
 	}
 
     fetchWeather() {
@@ -40,16 +39,6 @@ export default class CurrentWeather extends React.Component {
                 console.log('mon data ', this.state.report)
                 console.log('my weather', this.state.weather)
             })
-    }
-
-    generateFun() {
-
-        const keyArray = Object.keys(Fun);
-
-		const randomKey = keyArray[Math.floor(Math.random() * keyArray.length)];
-        console.log(randomKey);
-        console.log(Fun[randomKey].weather);
-
     }
 
     render(){
